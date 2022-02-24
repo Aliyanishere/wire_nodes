@@ -30,14 +30,14 @@ function App() {
       {/* banner */}
       <section className="main">
         <div className="child px-3 pt-4">
-          <h1 className="main_head fs-2"><span style={{ color: "rgb(24, 84, 180)" }}>Top chains.</span> Fastest speed. Enterprise infrastructure for 11 blockchains.</h1>
-          <p className="cont_para col-lg-8 col-12 fw-300">We make it simple to power your blockchain applications and scale up as you grow. From elastic APIs & dedicated nodes, to powerful tools & analytics, all at your command through a simple control panel.</p>
+          <h1 className="main_head fs-2"><span style={{ color: "rgb(0, 53, 138)" }}>Web3 infrastructure</span> at your fingertips. Get rewarded for building the future.</h1>
           <p className='support_para w-100 fw-bold'>We currently support the following chains and clients:</p>
           <div className='support w-100'>
             <img className='mx-lg-2 mx-md-2' src="./images/avalanche.png" alt="" width="60px" />
             <img className='mx-lg-2 mx-md-2' src="./images/HarmonyONE.png" alt="" width="80px" />
             <img className='mx-lg-2 mx-md-2' src="./images/Ethereum.png" alt="" height="65px" />
             <img className='mx-lg-2 mx-md-2' src="./images/fuse.png" alt="" width="100px" />
+            <img className='mx-lg-2 mx-md-2' src="./images/xdai .png" alt="" width="70px" />
           </div>
         </div>
         <div className=''>
@@ -86,12 +86,12 @@ function App() {
         <div className="container">
           <div className="row mx-0 d-flex align-items-center">
             <div className="col-lg-6 co-12 d-flex flex-column align-items-start" style={{ paddingTop: "105px" }}>
-              <h1 className="main_head"><span style={{ color: "rgb(24, 84, 180)" }}>Top chains.</span> Fastest speed. Enterprise infrastructure for 11 blockchains.</h1>
+              <h1 className="main_head"><span style={{ color: "rgb(0, 53, 138)" }}>Top chains.</span> Fastest speed. Enterprise infrastructure for 11 blockchains.</h1>
               <div className="mob_global col-lg-6 col-12">
                 <img src='./images/global.png' className="w-100" alt="" />
               </div>
               <p className="global_para fs-7 fw-300 pt-1">
-                Get started developing immediately with a globally available, cache accelerated service with QuickNode API or when you have custom needs, spin up a dedicated node with unmetered responses in your preferred location using a dedicated QuickNode endpoint. Want better insights or a particular tools? Enable an add-on for your endpoint.</p>
+                Get started today with a dedicated node unmetered responses. Need web3 infrastructure for your blockchain project or have any questions in general? COntact us by filling out the form. </p>
               <button className='signin'>Compare us</button>
             </div>
             <div className="desk_global col-lg-6 col-12">
@@ -105,12 +105,12 @@ function App() {
       </div>
 
       {/* feature */}
-      <div className="decore">
+      {/* <div className="decore">
         <img src='./images/boxes1.png' alt="" />
       </div>
       <section id='feature' className="Virtuse_news ak_home_vituse">
         <div className="Virtuse_news_cont text-start">
-          <h1 className="main_head text-start"><span style={{ color: "rgb(24, 84, 180)" }}>Featured</span> in the following</h1>
+          <h1 className="main_head text-start"><span style={{ color: "rgb(0, 53, 138)" }}>Featured</span> in the following</h1>
         </div>
         <div className="Virtuse_cards">
           <div className="card2" style={{ width: "18rem", height: "25rem" }}>
@@ -122,7 +122,6 @@ function App() {
                 <br />
                 <span style={{ color: "rgb(90,188,220)" }}>Nathan Crooks - October 27, 2021</span>
               </p>
-              {/* <br /> */}
               <a className='' href="" style={{ color: "wheat" }}>learn More »</a>
             </div>
           </div>
@@ -157,7 +156,7 @@ function App() {
       </section>
       <div className="decore2">
         <img src='./images/boxes2.png' alt="" />
-      </div>
+      </div> */}
 
       {/* services */}
       <div id='pricing' className="decore">
@@ -165,29 +164,27 @@ function App() {
       </div>
       <div className='services container-fluid'>
         <div className="Virtuse_news_cont text-center">
-          <h1 className="main_head text-center"><span style={{ color: "rgb(24, 84, 180)" }}>Live</span> websites immediately
-            with <span style={{ color: "rgb(24, 84, 180)" }}>WIRE_NODES</span> hosting</h1>
+          <h1 className="main_head text-center">Get started immediatelly with WIREDNODES</h1>
           <p className="Virtuse_head mb-0 text-center"></p>
           <p className="Virtuse_para mb-0 text-center ">
-            The best choice for developers, hobbyists & web-scale blockchain apps.
+            Choose your service below
           </p>
         </div>
         <div className='provider'>
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>Node Runner Service</p>
-                <p className='mb-1'>300 thousand responses / mo</p>
-                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$9</span>/mo</p>
+                <p className='mb-0 fw-bold' style={{ color: "rgb(0, 53, 138)", fontSize: "20px" }}>Node Runner Service</p>
+                <p className='mb-1'>$130/mo</p>
+                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$130</span>/mo</p>
                 <ul>
-                  <li><i className="me-2 fas fa-check" ></i> Usage Metrics</li>
-                  <li><i className="me-2 fas fa-check" ></i> Community Support</li>
-                  <li><i className="me-2 fas fa-check" ></i> HTTPS & WSS Endpoints</li>
-                  <li><i className="me-2 fas fa-check" ></i> Overage is $0.10 per 10k</li>
+                  <li><i className="me-2 fas fa-check" ></i> Get rewarded by building web3 infrastructure</li>
+                  <li><i className="me-2 fas fa-check" ></i> We manage the node for you</li>
+                  <li><i className="me-2 fas fa-check" ></i> No hassle nor worries</li>
                 </ul>
               </div>
               <div className="flip-card-back">
-                <button className='free_trial'>Get started - 7 day free trial</button>
+                <button className='free_trial'>Learn more</button>
               </div>
             </div>
           </div>
@@ -195,53 +192,53 @@ function App() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>Full Blockchain Nodes</p>
-                <p className='mb-1'>20 million responses / mo</p>
-                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$99</span>/mo</p>
+                <p className='mb-1'>$40+/mo</p>
+                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$40+</span>/mo</p>
                 <ul>
-                  <li><i className="me-2 fas fa-check" ></i> Launch Perks+</li>
-                  <li><i className="me-2 fas fa-check" ></i> Live Chat Support</li>
-                  <li><i className="me-2 fas fa-check" ></i> 100 Free Archive Calls</li>
-                  <li><i className="me-2 fas fa-check" ></i> Overage is $0.07 per 10k</li>
+                  <li><i className="me-2 fas fa-check" ></i> Dedicated</li>
+                  <li><i className="me-2 fas fa-check" ></i> No rate limiting or throttling</li>
+                  <li><i className="me-2 fas fa-check" ></i> Customized to your needs</li>
+                  <li><i className="me-2 fas fa-check" ></i> We will work with you to get best performance</li>
                 </ul>
               </div>
               <div className="flip-card-back">
-                <button className='free_trial'>Open account</button>
+                <button className='free_trial'>Learn more</button>
               </div>
             </div>
           </div>
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>KVM servers</p>
-                <p className='mb-1'>60 million responses / mo</p>
-                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$299</span>/mo</p>
+                <p className='mb-0 fw-bold' style={{ color: "rgb(0, 53, 138)", fontSize: "20px" }}>KVM Linux Servers</p>
+                <p className='mb-1'>$7.95+/mo</p>
+                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$7.95+</span>/mo</p>
                 <ul>
-                  <li><i className="me-2 fas fa-check" ></i> Pro Perks+</li>
-                  <li><i className="me-2 fas fa-check" ></i> Priority Support</li>
-                  <li><i className="me-2 fas fa-check" ></i> 300 Free Archive Calls</li>
-                  <li><i className="me-2 fas fa-check" ></i> Overage is $0.05 per 10k</li>
+                  <li><i className="me-2 fas fa-check" ></i> 1 IPv4 address</li>
+                  <li><i className="me-2 fas fa-check" ></i> IPv6 capable</li>
+                  <li><i className="me-2 fas fa-check" ></i> Storage or Performance</li>
+                  <li><i className="me-2 fas fa-check" ></i> Non Managed and Fully Managed</li>
                 </ul>
               </div>
               <div className="flip-card-back">
-                <button className='free_trial'>Open account</button>
+                <button className='free_trial'>View plans</button>
               </div>
             </div>
           </div>
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>Premium Webhosting</p>
-                <p className='mb-1'>500m+ responses / month</p>
-                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>Let's talk</span></p>
+                <p className='mb-0 fw-bold' style={{ color: "rgb(0, 53, 138)", fontSize: "20px" }}>Premium Web Hosting</p>
+                <p className='mb-1'>$14.95+/mo</p>
+                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$14.95+</span>/mo</p>
                 <ul>
-                  <li><i className="me-2 fas fa-check" ></i> Volume Discounts</li>
-                  <li><i className="me-2 fas fa-check" ></i> Faster SLA Time</li>
-                  <li><i className="me-2 fas fa-check" ></i> Bespoke Solutions</li>
-                  <li><i className="me-2 fas fa-check" ></i> White-Glove Support</li>
+                  <li><i className="me-2 fas fa-check" ></i> DirectAdmin or Plesk</li>
+                  <li><i className="me-2 fas fa-check" ></i> Free Let's Encrypt SSL</li>
+                  <li><i className="me-2 fas fa-check" ></i> 1Gbps Bandwidth</li>
+                  <li><i className="me-2 fas fa-check" ></i> Instant Setup</li>
                 </ul>
               </div>
               <div className="flip-card-back">
-                <button className='free_trial'>Contact us</button>
+                <button className='free_trial'>View plans</button>
               </div>
             </div>
           </div>
@@ -257,7 +254,7 @@ function App() {
       </div>
       <div id='trust' className='trusted'>
         <div className="Virtuse_news_cont">
-          <h1 className="main_head"><span style={{ color: "rgb(24, 84, 180)" }}>Trusted</span> by companies like</h1>
+          <h1 className="main_head">We work with these blockchains.</h1>
         </div>
         <div className='trusted_imgs'>
           <img src="./images/avalanche.png" alt="" width="100px" />
@@ -271,15 +268,35 @@ function App() {
         <img src='./images/boxes2.png' alt="" />
       </div>
 
+      {/* why run */}
+      <div className="decore">
+        <img src='./images/boxes1.png' alt="" />
+      </div>
+      <section id='about' className="global d-flex align-items-center" style={{ minHeight: "70vh" }}>
+        <div className="container">
+          <div className="row mx-0 d-flex align-items-center">
+            <div className="col-lg-12 co-12 d-flex flex-column align-items-center" style={{ paddingTop: "105px" }}>
+              <h1 className="main_head text-center mb-5">Why run a node?</h1>
+              <p className="global_para fs-7 fw-300 pt-1 text-center">
+                Nodes are what help the network verify transactions on the blockchain, and you get to be a part of this amazing blockchain. They keep things secure and help speed things up. Best of all, if you're machine is already running while mining then the impact to you is next to zero, just a little bit of disk space.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="decore2">
+        <img src='./images/boxes2.png' alt="" />
+      </div>
+
+
       {/* footer */}
       <div className='footer'>
 
         <div className="first_footer">
-          <p className="ready_para text-center mb-4 ">
+          {/* <p className="ready_para text-center mb-4 ">
             Ready to live your website with WIRE_NODES
-          </p>
-          <h1 className="main_head mb-5">Get started in <span style={{ color: "rgb(24, 84, 180)" }}>seconds</span></h1>
-          <button className='few_seconds'>Sign up for a free QuickNode account</button>
+          </p> */}
+          <h1 className="main_head mb-5">Need a website? Get started today!</h1>
+          <button className='few_seconds'>Contact Us button</button>
         </div>
         <div className='real_parent'>
           <div className='container real_footer mb-5'>
