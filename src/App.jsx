@@ -208,9 +208,9 @@ function App() {
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <p className='mb-0 fw-bold' style={{ color: "rgb(0, 53, 138)", fontSize: "20px" }}>Node Runner Service</p>
+                <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>Node Runner Service</p>
                 <p className='mb-1'>$130/mo</p>
-                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$130</span>/mo</p>
+                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$130</span>/mo</p>
                 <ul>
                   <li><i className="me-2 fas fa-check" ></i> Get rewarded by building web3 infrastructure</li>
                   <li><i className="me-2 fas fa-check" ></i> We manage the node for you</li>
@@ -227,7 +227,7 @@ function App() {
               <div className="flip-card-front">
                 <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>Full Blockchain Nodes</p>
                 <p className='mb-1'>$40+/mo</p>
-                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$40+</span>/mo</p>
+                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$40+</span>/mo</p>
                 <ul>
                   <li><i className="me-2 fas fa-check" ></i> Dedicated</li>
                   <li><i className="me-2 fas fa-check" ></i> No rate limiting or throttling</li>
@@ -243,9 +243,9 @@ function App() {
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <p className='mb-0 fw-bold' style={{ color: "rgb(0, 53, 138)", fontSize: "20px" }}>KVM Linux Servers</p>
+                <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>KVM Linux Servers</p>
                 <p className='mb-1'>$7.95+/mo</p>
-                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$7.95+</span>/mo</p>
+                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$7.95+</span>/mo</p>
                 <ul>
                   <li><i className="me-2 fas fa-check" ></i> 1 IPv4 address</li>
                   <li><i className="me-2 fas fa-check" ></i> IPv6 capable</li>
@@ -261,9 +261,9 @@ function App() {
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <p className='mb-0 fw-bold' style={{ color: "rgb(0, 53, 138)", fontSize: "20px" }}>Premium Web Hosting</p>
+                <p className='mb-0 fw-bold' style={{ color: "rgb(24, 84, 180)", fontSize: "20px" }}>Premium Web Hosting</p>
                 <p className='mb-1'>$14.95+/mo</p>
-                <p><span style={{ color: "rgb(0, 53, 138)", fontSize: "40px" }}>$14.95+</span>/mo</p>
+                <p><span style={{ color: "rgb(24, 84, 180)", fontSize: "40px" }}>$14.95+</span>/mo</p>
                 <ul>
                   <li><i className="me-2 fas fa-check" ></i> DirectAdmin or Plesk</li>
                   <li><i className="me-2 fas fa-check" ></i> Free Let's Encrypt SSL</li>
