@@ -146,6 +146,22 @@ body {
   color: white;
 }
 
+.banner_btns{
+  padding: 10px 30px;
+  margin: 8px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: rgb(0, 53, 138);
+  color: white;
+  font: 900;
+  box-shadow: 3px 3px 5px rgb(2, 48, 255);
+}
+.banner_btns:hover{
+  background-color: rgb(214, 238, 253);
+  color: rgb(0, 53, 138);
+  transition: 0.6s;
+}
+
 @media(max-width: 640px) {
   .main {
     background-repeat: repeat;

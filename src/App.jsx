@@ -40,41 +40,11 @@ function App() {
             <img className='mx-lg-2 mx-md-2' src="./images/xdai .png" alt="" width="70px" />
           </div>
         </div>
-        <div className=''>
-          <form className="for_form bg-white rounded pe-5 ps-4 py-4" style={{ color: "black" }}>
-            <div className="mb-2">
-              <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="name">
-                Company Name
-              </label>
-              <br />
-              <input className="shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="Gemini Trading" type="text" />
-            </div>
-            <div className="mb-2">
-              <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="full-name">
-                Name for billing
-              </label>
-              <br />
-              <input data-test="name-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="Tyler Winklevoss" type="text" />
-            </div>
-
-            <div className="mb-2">
-              <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="email">
-                Email
-              </label>
-              <br />
-              <input data-test="email-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="tylerw@gemini.com" type="text" />
-            </div>
-
-            <div className="mb-3">
-              <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="password">
-                Password
-              </label>
-              <br />
-              <input data-test="password-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="••••••••" autoComplete="new-password" type="password" />
-            </div>
-            <button className='submit'>SUBMIT</button>
-            <div className="text-xs text-gray-500 mx-auto text-start mt-1">QuickNode always keeps your<br />information safe &amp; secure.</div>
-          </form>
+        <div className='d-flex flex-column'>
+          <button className='banner_btns'>Node Runner</button>
+          <button className='banner_btns'>Blockchain Nodes</button>
+          <button className='banner_btns'>KVM Servers</button>
+          <button className='banner_btns'>Web Hosting</button>
         </div>
       </section>
 
@@ -84,18 +54,82 @@ function App() {
       </div>
       <section id='about' className="global d-flex align-items-center" style={{ minHeight: "100vh" }}>
         <div className="container">
-          <div className="row mx-0 d-flex align-items-center">
-            <div className="col-lg-6 co-12 d-flex flex-column align-items-start" style={{ paddingTop: "105px" }}>
-              <h1 className="main_head"><span style={{ color: "rgb(0, 53, 138)" }}>Top chains.</span> Fastest speed. Enterprise infrastructure for 11 blockchains.</h1>
+          <div className="row mx-0 my-0 d-flex align-items-start">
+            <div className="col-lg-6 co-12 d-flex flex-column align-items-start" style={{ paddingTop: "22px" }}>
               <div className="mob_global col-lg-6 col-12">
-                <img src='./images/global.png' className="w-100" alt="" />
+                <form className="for_form bg-white rounded pe-5 ps-4 py-4" style={{ color: "black" }}>
+                  <div className="mb-2 w-100">
+                    <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="name">
+                      Company Name
+                    </label>
+                    <br />
+                    <input className="shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="Gemini Trading" type="text" style={{ width: "100%" }} />
+                  </div>
+                  <div className="mb-2 w-100">
+                    <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="full-name">
+                      Name for billing
+                    </label>
+                    <br />
+                    <input data-test="name-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="Tyler Winklevoss" type="text" style={{ width: "100%" }} />
+                  </div>
+
+                  <div className="mb-2 w-100">
+                    <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="email">
+                      Email
+                    </label>
+                    <br />
+                    <input data-test="email-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="tylerw@gemini.com" type="text" style={{ width: "100%" }} />
+                  </div>
+
+                  <div className="mb-3 w-100">
+                    <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="password">
+                      Password
+                    </label>
+                    <br />
+                    <input data-test="password-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="••••••••" autoComplete="new-password" type="password" style={{ width: "100%" }} />
+                  </div>
+                  <button className='submit'>SUBMIT</button>
+                  <div className="text-xs text-gray-500 mx-auto text-start mt-1">Wire Nodes always keeps your information safe &amp; secure.</div>
+                </form>
               </div>
-              <p className="global_para fs-7 fw-300 pt-1">
-                Get started today with a dedicated node unmetered responses. Need web3 infrastructure for your blockchain project or have any questions in general? COntact us by filling out the form. </p>
-              <button className='signin'>Compare us</button>
+              <p className="global_para fs-5 fw-300 pt-1">
+                Get started today with a dedicated node unmetered responses. Need web3 infrastructure for your blockchain project or have any questions in general?</p>
             </div>
             <div className="desk_global col-lg-6 col-12">
-              <img src='./images/global.png' className="w-100" alt="" />
+              <form className="for_form bg-white rounded pe-5 ps-4 py-4" style={{ color: "black" }}>
+                <div className="mb-2 w-100">
+                  <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="name">
+                    Company Name
+                  </label>
+                  <br />
+                  <input className="shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="Gemini Trading" type="text" style={{ width: "100%" }} />
+                </div>
+                <div className="mb-2 w-100">
+                  <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="full-name">
+                    Name for billing
+                  </label>
+                  <br />
+                  <input data-test="name-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="Tyler Winklevoss" type="text" style={{ width: "100%" }} />
+                </div>
+
+                <div className="mb-2 w-100">
+                  <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="email">
+                    Email
+                  </label>
+                  <br />
+                  <input data-test="email-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="tylerw@gemini.com" type="text" style={{ width: "100%" }} />
+                </div>
+
+                <div className="mb-3 w-100">
+                  <label className="block text-lite-gray text-sm font-medium mb-2" htmlFor="password">
+                    Password
+                  </label>
+                  <br />
+                  <input data-test="password-field" className="bg-white shadow-sm appearance-none border border-xl-gray rounded w-full py-2 ps-3 text-lite-gray leading-tight focus:outline-none focus:ring focus:border-teal-1000 " placeholder="••••••••" autoComplete="new-password" type="password" style={{ width: "100%" }} />
+                </div>
+                <button className='submit'>SUBMIT</button>
+                <div className="text-xs text-gray-500 mx-auto text-start mt-1">Wire Nodes always keeps your information safe &amp; secure.</div>
+              </form>
             </div>
           </div>
         </div>
@@ -159,9 +193,9 @@ function App() {
       </div> */}
 
       {/* services */}
-      <div id='pricing' className="decore">
+      {/* <div id='pricing' className="decore">
         <img src='./images/boxes1.png' alt="" />
-      </div>
+      </div> */}
       <div className='services container-fluid'>
         <div className="Virtuse_news_cont text-center">
           <h1 className="main_head text-center">Get started immediatelly with WIREDNODES</h1>
@@ -244,9 +278,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="decore2">
+      {/* <div className="decore2">
         <img src='./images/boxes2.png' alt="" />
-      </div>
+      </div> */}
 
       {/* trusted */}
       <div id='pricing' className="decore">
