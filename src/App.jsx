@@ -1,6 +1,20 @@
 import './App.css';
+import Particles from "react-tsparticles";
 
 function App() {
+
+
+  const particlesInit = (main) => {
+    console.log(main);
+
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+
+
   return (
     <div className="App">
 
@@ -8,7 +22,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src="./images/logo.PNG" alt="" height="50px" />
+            <img src="./images/logo2.PNG" alt="" height="30px" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -193,9 +207,6 @@ function App() {
       </div> */}
 
       {/* services */}
-      {/* <div id='pricing' className="decore">
-        <img src='./images/boxes1.png' alt="" />
-      </div> */}
       <div className='services container-fluid'>
         <div className="Virtuse_news_cont text-center">
           <h1 className="main_head text-center">Get started immediatelly with WIREDNODES</h1>
@@ -277,10 +288,92 @@ function App() {
             </div>
           </div>
         </div>
+        <div className='' style={{height: "100vh", zIndex: "-1"}}>
+          <Particles
+          style={{height: "100vh"}}
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{
+              background: {
+                color: {
+                  value: "black",
+                },
+              },
+              fpsLimit: 120,
+              interactivity: {
+                events: {
+                  onClick: {
+                    enable: true,
+                    mode: "push",
+                  },
+                  onHover: {
+                    enable: true,
+                    mode: "repulse",
+                  },
+                  resize: true,
+                },
+                modes: {
+                  bubble: {
+                    distance: 400,
+                    duration: 2,
+                    opacity: 0.8,
+                    size: 40,
+                  },
+                  push: {
+                    quantity: 4,
+                  },
+                  repulse: {
+                    distance: 200,
+                    duration: 0.4,
+                  },
+                },
+              },
+              particles: {
+                color: {
+                  value: "#ffffff",
+                },
+                links: {
+                  color: "#ffffff",
+                  distance: 150,
+                  enable: true,
+                  opacity: 0.5,
+                  width: 1,
+                },
+                collisions: {
+                  enable: true,
+                },
+                move: {
+                  direction: "none",
+                  enable: true,
+                  outMode: "bounce",
+                  random: false,
+                  speed: 3,
+                  straight: false,
+                },
+                number: {
+                  density: {
+                    enable: true,
+                    area: 800,
+                  },
+                  value: 80,
+                },
+                opacity: {
+                  value: 0.5,
+                },
+                shape: {
+                  type: "circle",
+                },
+                size: {
+                  random: false,
+                  value: 5,
+                },
+              },
+              detectRetina: true,
+            }}
+          />
+        </div>
       </div>
-      {/* <div className="decore2">
-        <img src='./images/boxes2.png' alt="" />
-      </div> */}
 
       {/* trusted */}
       <div id='pricing' className="decore">
@@ -324,7 +417,6 @@ function App() {
 
       {/* footer */}
       <div className='footer'>
-
         <div className="first_footer">
           {/* <p className="ready_para text-center mb-4 ">
             Ready to live your website with WIRE_NODES
@@ -335,7 +427,7 @@ function App() {
         <div className='real_parent'>
           <div className='container real_footer mb-5'>
             <div>
-              <img src="./images/logo.PNG" alt="" height="50px" />
+              <img src="./images/logo2.PNG" alt="" height="30px" width="200px" />
             </div>
 
             <div className='foot_lists'>
